@@ -1,0 +1,24 @@
+iPadでスキャンしてobjで出力。GoogleDriveで共有。
+A-Frameで描画
+    参考　https://www.noboyu.com/how-to-embed-3d-models-website/
+            https://ziyudom.com/aframe-2/
+    ファイルtextured_output.obj　textured_output.mtl　textured_output.obj(.jpegを削除しないとテクスチャー表示されない)をコピー
+    cmd
+    d:
+    cd "D:\GoogleDrive\Private\Work\Study\a-frame iPad 3D Scan"
+    python -m http.server
+    localhost:8000
+
+●git環境 
+    参考　https://www.takapy.work/entry/2017/11/27/234651
+    Webでリポジトリ　grand-hyatt-a-frame　作成。
+    cd scratch-gui
+    rm -fr .git
+    git init
+    git add -A
+    git config --global user.email "mogi@gashfara.com"
+    git commit -m "first"    
+    git remote add origin https://github.com/manabi-lab/scratch-gui.git
+    git push origin master
+
+
